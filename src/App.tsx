@@ -1,8 +1,14 @@
-import React from 'react';
 import type { FC } from 'react';
+import { MyAccordion } from './components/MyAccordion';
+import { MyPopover } from './components/MyPopover';
 
 const App: FC = () => {
-  return <h1>Hello, world!</h1>;
+  return (
+    <>
+      <MyPopover />
+      <MyAccordion />
+    </>
+  );
 };
 
 export default App;
