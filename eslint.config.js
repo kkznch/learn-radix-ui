@@ -49,6 +49,7 @@ export default [
       ...reactConfigRecommended.rules,
       ...reactConfigJsxRuntime.rules,
       ...pluginPrettier.rules,
+      'react/display-name': 'off',
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
       'no-unused-vars': 'off',

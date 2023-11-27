@@ -1,12 +1,13 @@
 import type { FC } from 'react';
 import { MyAccordion } from './components/MyAccordion';
-import { MyPopover } from './components/MyPopover';
 
 const App: FC = () => {
   return (
     <>
-      <MyPopover />
-      <MyAccordion />
+      <section>
+        <h1>アコーディオン</h1>
+        <MyAccordion />
+      </section>
     </>
   );
 };
