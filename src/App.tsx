@@ -4,6 +4,7 @@ import { MyAlertDialog } from './components/MyAlertDialog';
 import { MyAspectRatio } from './components/MyAspectRatio';
 import { MyAvatar } from './components/MyAvatar';
 import { MyCheckbox } from './components/MyCheckbox';
+import { MyCollapsible } from './components/MyCollapsible';
 
 const App: FC = () => {
   return (
@@ -27,6 +28,10 @@ const App: FC = () => {
       <section>
         <h1>Checkbox</h1>
         <MyCheckbox />
+      </section>
+      <section>
+        <h1>Collapsible</h1>
+        <MyCollapsible />
       </section>
     </>
   );
