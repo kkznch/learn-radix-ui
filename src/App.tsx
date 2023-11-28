@@ -2,6 +2,7 @@ import type { FC } from 'react';
 import { MyAccordion } from './components/MyAccordion';
 import { MyAlertDialog } from './components/MyAlertDialog';
 import { MyAspectRatio } from './components/MyAspectRatio';
+import { MyAvatar } from './components/MyAvatar';
 
 const App: FC = () => {
   return (
@@ -17,6 +18,10 @@ const App: FC = () => {
       <section>
         <h1>Aspect ratio</h1>
         <MyAspectRatio />
+      </section>
+      <section>
+        <h1>Avatar</h1>
+        <MyAvatar />
       </section>
     </>
   );
