@@ -5,6 +5,7 @@ import { MyAspectRatio } from './components/MyAspectRatio';
 import { MyAvatar } from './components/MyAvatar';
 import { MyCheckbox } from './components/MyCheckbox';
 import { MyCollapsible } from './components/MyCollapsible';
+import { MyContextMenu } from './components/MyContextMenu';
 
 const App: FC = () => {
   return (
@@ -32,6 +33,10 @@ const App: FC = () => {
       <section>
         <h1>Collapsible</h1>
         <MyCollapsible />
+      </section>
+      <section>
+        <h1>Context menu</h1>
+        <MyContextMenu />
       </section>
     </>
   );
