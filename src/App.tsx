@@ -10,6 +10,7 @@ import { MyDialog } from './components/MyDialog';
 import { MyHoverCard } from './components/MyHoverCard';
 import { MyNavigationMenu } from './components/MyNavigationMenu';
 import { MySlider } from './components/MySlider';
+import { MyToast } from './components/MyToast';
 
 const App: FC = () => {
   return (
@@ -57,6 +58,10 @@ const App: FC = () => {
       <section style={{ backgroundColor: 'pink' }}>
         <h1>Slider</h1>
         <MySlider />
+      </section>
+      <section>
+        <h1>Toast</h1>
+        <MyToast />
       </section>
     </>
   );
