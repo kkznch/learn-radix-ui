@@ -7,6 +7,7 @@ import { MyCheckbox } from './components/MyCheckbox';
 import { MyCollapsible } from './components/MyCollapsible';
 import { MyContextMenu } from './components/MyContextMenu';
 import { MyDialog } from './components/MyDialog';
+import { MyHoverCard } from './components/MyHoverCard';
 
 const App: FC = () => {
   return (
@@ -42,6 +43,10 @@ const App: FC = () => {
       <section>
         <h1>Dialog</h1>
         <MyDialog />
+      </section>
+      <section>
+        <h1>Hover card</h1>
+        <MyHoverCard />
       </section>
     </>
   );
