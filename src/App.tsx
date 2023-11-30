@@ -6,6 +6,7 @@ import { MyAvatar } from './components/MyAvatar';
 import { MyCheckbox } from './components/MyCheckbox';
 import { MyCollapsible } from './components/MyCollapsible';
 import { MyContextMenu } from './components/MyContextMenu';
+import { MyDialog } from './components/MyDialog';
 
 const App: FC = () => {
   return (
@@ -37,6 +38,10 @@ const App: FC = () => {
       <section>
         <h1>Context menu</h1>
         <MyContextMenu />
+      </section>
+      <section>
+        <h1>Dialog</h1>
+        <MyDialog />
       </section>
     </>
   );
