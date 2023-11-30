@@ -8,6 +8,7 @@ import { MyCollapsible } from './components/MyCollapsible';
 import { MyContextMenu } from './components/MyContextMenu';
 import { MyDialog } from './components/MyDialog';
 import { MyHoverCard } from './components/MyHoverCard';
+import { MyNavigationMenu } from './components/MyNavigationMenu';
 
 const App: FC = () => {
   return (
@@ -47,6 +48,10 @@ const App: FC = () => {
       <section>
         <h1>Hover card</h1>
         <MyHoverCard />
+      </section>
+      <section>
+        <h1>Navigation menu</h1>
+        <MyNavigationMenu />
       </section>
     </>
   );
